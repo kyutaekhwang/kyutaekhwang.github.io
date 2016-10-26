@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-$("nav").onePageNav();
+	$("nav").onePageNav();
 
 	var menu = $("nav ul");
 
@@ -20,7 +20,7 @@ $("nav").onePageNav();
 		}
 
 	});
-});
 
-// add paralax (stellar.js)
-$.stellar();
+	// add paralax (stellar.js)
+	$.stellar();
+});

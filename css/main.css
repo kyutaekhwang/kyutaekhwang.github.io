@@ -19,7 +19,8 @@ nav {
 
 
 nav li {
-	display:inline-block;
+	display: inline-block;
+	width: 120px;
 	list-style: none;
 	padding: 10px 30px;
 }
@@ -171,6 +172,7 @@ footer{
 
 	nav li {
 		display: block;
+		width: auto;
 	}
 
 	#menu-icon {
