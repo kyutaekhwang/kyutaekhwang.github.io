@@ -15,6 +15,8 @@ nav {
 	top: 0;
 	left: 0;
 	padding: 20px 10px 20px 0px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 
@@ -26,9 +28,9 @@ nav li {
 }
 
 nav a {
-	color: #024578;
+	color: #4A4A4A;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: bold;
+	font-weight: lighter;
 	font-size: 14px;
 	text-decoration: none;
 	margin-right: 30px;
@@ -55,7 +57,7 @@ nav img {
 
 #menu-icon {
 	display: none;
-	color: #024578;
+	color: #4A4A4A;
 	background-color: #ffffff;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 20px;
@@ -68,12 +70,6 @@ nav img {
 	margin-right: 20px;
 }
 
-#bentley {
-	position: fixed;
-	bottom: -1300px;
-	left: 50px;
-}
-
 section {
 	height: 800px;
 	padding-top: 85px;
@@ -83,19 +79,19 @@ section {
 }
 
 #home {
-	background-image: url("../images/Businesscard_Front.png");
+	
 }
 
 #about {
-	background-image: url("../images/Businesscard_Front_Purple.png");
+	
 }
 
 #portfolio {	
-	background-image: url("../images/Businesscard_Front_Maroon.png");
+	
 }
 
 #contact {
-	background-image: url("../images/Businesscard_Front_Orange.png");
+	
 }
 
 footer{
