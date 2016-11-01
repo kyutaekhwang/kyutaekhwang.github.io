@@ -185,7 +185,7 @@ section {
 
 #contactparagraphboundary a {
 	color: #ffffff;
-	background-color: rgba(255, 255, 255, .5);
+	background-color: rgba(255, 255, 255, .25);
 	font-weight: lighter;
 	text-decoration: none;
 }
