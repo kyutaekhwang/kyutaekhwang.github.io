@@ -15,10 +15,9 @@ nav {
 	top: 0;
 	left: 0;
 	padding: 20px 10px 20px 0px;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	box-shadow: 0px 0px 5px #888888;
   	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
-
 
 nav li {
 	display: inline-block;
@@ -29,9 +28,10 @@ nav li {
 
 nav a {
 	color: #4A4A4A;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Muli', sans-serif;
+	text-transform: uppercase;
 	font-weight: lighter;
-	font-size: 14px;
+	font-size: 15px;
 	text-decoration: none;
 	margin-right: 30px;
 	margin-left: 30px;
@@ -71,30 +71,151 @@ nav img {
 }
 
 section {
-	height: 800px;
-	padding-top: 85px;
+	height: 500px;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+	box-shadow: 0px 0px 5px #888888;
 }
 
-/*#home {
-	
+#home {
+	padding-top: 165px;
+	background-color: #efd469;
 }
 
-#about {
-	
+#home h2 {
+	font-family: 'Muli', sans-serif;
+	font-size: 15px;
+	color: #4A4A4A;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 175px;
+	text-align: center;
+	vertical-align: center;
 }
 
-#portfolio {	
-	
+#home h3 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+	color: #4A4A4A;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 70px;
+	margin-bottom: 20px;
+	text-align: center;
+	vertical-align: center;
 }
 
-#contact {
-	
-}*/
+.about-box {
+	width: 100%;
+	height: 500px;
+	background-color: #3c6478;
+}
 
-footer{
+.about-box img {
+	display: block;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#aboutparagraphboundary {
+	margin-left: 180px;
+	margin-right: 180px;
+}	
+
+#aboutparagraphboundary p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	margin-top: 50px;
+	color: #ffffff;
+	line-height: 30px;
+	text-align: center;
+	vertical-align: center;
+}
+
+.tools-box {
+	width: 100%;
+	height: 500px;
+	background-color: #93a661;
+}
+
+.tools-box img {
+	display: block;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#toolsparagraphboundary {
+	margin-left: 180px;
+	margin-right: 180px;
+}	
+
+#toolsparagraphboundary p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	margin-top: 50px;
+	color: #ffffff;
+	line-height: 30px;
+	text-align: center;
+	vertical-align: center;
+}
+
+.contact-box {
+	width: 100%;
+	height: 500px;
+	background-color: #9a2617;
+}
+
+#contactparagraphboundary {
+	margin-left: 180px;
+	margin-right: 180px;
+}	
+
+#contactparagraphboundary p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 30px;
+	text-align: center;
+	vertical-align: center;
+	padding-top: 200px;
+}
+
+#contactparagraphboundary a {
+	color: #ffffff;
+	background-color: rgba(255, 255, 255, .5);
+	font-weight: lighter;
+	text-decoration: none;
+}
+
+.resume-casestudy{
+	position: fixed;
+	width: 100%;
+	height: 125px;
+	background-color: #444444;
+	bottom: 30px;
+}
+
+.resume-casestudy button {
+    margin-top: 14px;
+    margin-right: 40px;
+    float: right;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    text-decoration: none;
+    border-style: solid;
+    background: #9a2617;
+    border-width: 10px 20px;
+    border-color: #9a2617;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-distributed{
 	position: fixed;
 	bottom: 0;
 }
@@ -106,18 +227,19 @@ footer{
 	width: 100%;
 	text-align: left;
 	font: normal 16px sans-serif;
-
 	padding: 10px 50px;
 	margin-top: 80px;
 }
 
 .footer-distributed .footer-left p{
 	color:  #8f9296;
+	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
 	margin: 0;
 }
 
 .footer-distributed p.footer-links{
+	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
 	color:  #ffffff;
 	margin: 10px 0px 10px;
@@ -144,12 +266,11 @@ footer{
 	height: 35px;
 	background-color:  #33383b;
 	border-radius: 2px;
-
+	font-family: 'Roboto Slab', serif;
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
-
 	margin-left: 3px;
 }
 
@@ -185,8 +306,64 @@ footer{
 		margin-left: 20px;
 	}
 
-	#bentley img{
-		width: 75%;
+	#home h3 {
+		font-family: 'Roboto Slab', serif;
+		font-size: 30px;
+	}
+
+	#aboutparagraphboundary {
+		margin-left: 50px;
+		margin-right: 50px;
+	}	
+	
+	.about-box img {
+		width: 300px;
+	}
+
+	#aboutparagraphboundary p {
+		font-size: 16px;
+		line-height: 25px;
+		margin-top: 35px;
+		color: #ffffff;
+		text-align: center;
+		vertical-align: center;
+	}
+
+	#toolsparagraphboundary {
+		position: absolute;
+		margin-left: 50px;
+		margin-right: 50px;
+	}	
+	
+	.tools-box img {
+		width: 250px;
+	}
+
+	#toolsparagraphboundary p {
+		font-size: 16px;
+		line-height: 25px;
+		margin-top: 35px;
+		color: #ffffff;
+		text-align: center;
+		vertical-align: center;
+	}
+
+	#contactparagraphboundary {
+		margin-left: 40px;
+		margin-right: 40px;
+	}	
+
+	#contactparagraphboundary p {
+		font-size: 16px;
+		line-height: 25px;
+		padding-top: 165px;
+		color: #ffffff;
+		text-align: center;
+		vertical-align: center;
+	}
+
+	.resume-casestudy {
+		bottom: 75px;
 	}
 
 	.footer-distributed .footer-left,
