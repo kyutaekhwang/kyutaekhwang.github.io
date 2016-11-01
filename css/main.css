@@ -193,14 +193,17 @@ section {
 .resume-casestudy{
 	position: fixed;
 	width: 100%;
-	height: 125px;
+	height: 70px;
 	background-color: #444444;
-	bottom: 30px;
+	bottom: 80px;
+	overflow: hidden;
 }
 
 .resume-casestudy button {
+	display: block;
     margin-top: 14px;
-    margin-right: 40px;
+    margin-left: -25px;
+    margin-right: 50px;
     float: right;
     color: #ffffff;
     font-family: 'Source Sans Pro', sans-serif;
@@ -317,7 +320,7 @@ section {
 	}	
 	
 	.about-box img {
-		width: 300px;
+		width: 200px;
 	}
 
 	#aboutparagraphboundary p {
@@ -328,15 +331,14 @@ section {
 		text-align: center;
 		vertical-align: center;
 	}
-
+	
 	#toolsparagraphboundary {
-		position: absolute;
 		margin-left: 50px;
 		margin-right: 50px;
 	}	
 	
 	.tools-box img {
-		width: 250px;
+		width: 150px;
 	}
 
 	#toolsparagraphboundary p {
@@ -363,7 +365,8 @@ section {
 	}
 
 	.resume-casestudy {
-		bottom: 75px;
+		bottom: 127px;
+		overflow: hidden;
 	}
 
 	.footer-distributed .footer-left,
