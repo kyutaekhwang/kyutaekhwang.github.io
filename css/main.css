@@ -203,7 +203,7 @@ section {
 	height: 68px;
 	text-align: left;
 	font: normal 16px sans-serif;
-	padding: 10px 50px;
+	padding: 10px;
 	margin-top: 80px;
 }
 
@@ -381,7 +381,6 @@ section {
 	.resume-casestudy {
 		bottom: 124px;
 	}
-
 
 	.links-right {
 		float: none;
