@@ -190,6 +190,13 @@ section {
 	text-decoration: none;
 }
 
+.contact-box img {
+	display: block;
+	padding-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .resume-casestudy {
 	position: fixed;
 	bottom: 80px;
@@ -379,10 +386,14 @@ section {
 	#contactparagraphboundary p {
 		font-size: 16px;
 		line-height: 25px;
-		padding-top: 165px;
+		padding-top: 50px;
 		color: #ffffff;
 		text-align: center;
 		vertical-align: center;
+	}
+
+	.contact-box img {
+		width: 230px;
 	}
 
 	.resume-casestudy {
