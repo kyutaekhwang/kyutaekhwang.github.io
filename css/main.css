@@ -371,9 +371,14 @@ section {
 		vertical-align: center;
 	}
 
+	.links-right {
+		float: none;
+		margin: 0 auto;
+		text-align: center;	
+	}
+
 	.resume-casestudy {
 		bottom: 127px;
-		line-height: 1.8;
 	}
 
 	.footer-distributed .footer-left,
