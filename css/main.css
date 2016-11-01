@@ -371,7 +371,7 @@ section {
 		vertical-align: center;
 	}
 
-	.links-right {
+	.links-right button{
 		float: none;
 		margin: 0 auto;
 		text-align: center;	
