@@ -200,11 +200,7 @@ section {
 }
 
 .resume-casestudy button {
-	display: block;
-    margin-top: 14px;
-    margin-left: -25px;
-    margin-right: 50px;
-    float: right;
+	display: inline-block;
     color: #ffffff;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
@@ -216,6 +212,17 @@ section {
     border-color: #9a2617;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.links-right {
+	margin-right: 30px;
+}
+
+.links-right a {
+	float: right;
+	margin-top: 12px;
+	padding-right: 20px;
+	max-width: 180px;
 }
 
 .footer-distributed{
@@ -366,7 +373,7 @@ section {
 
 	.resume-casestudy {
 		bottom: 127px;
-		overflow: hidden;
+		line-height: 1.8;
 	}
 
 	.footer-distributed .footer-left,
