@@ -110,25 +110,25 @@ section {
 	vertical-align: center;
 }
 
-.about-box {
+.story-box {
 	width: 100%;
 	height: 500px;
 	background-color: #3c6478;
 }
 
-.about-box img {
+.story-box img {
 	display: block;
 	padding-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#aboutparagraphboundary {
+#storyparagraphboundary {
 	margin-left: 180px;
 	margin-right: 180px;
 }	
 
-#aboutparagraphboundary p {
+#storyparagraphboundary p {
 	font-family: 'Roboto Slab', serif;
 	font-size: 20px;
 	margin-top: 50px;
@@ -346,16 +346,16 @@ section {
 		font-size: 30px;
 	}
 
-	#aboutparagraphboundary {
+	#storyparagraphboundary {
 		margin-left: 50px;
 		margin-right: 50px;
 	}	
 	
-	.about-box img {
+	.story-box img {
 		width: 200px;
 	}
 
-	#aboutparagraphboundary p {
+	#storyparagraphboundary p {
 		font-size: 16px;
 		line-height: 25px;
 		margin-top: 35px;
