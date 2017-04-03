@@ -428,17 +428,17 @@ section {
 
 @media (min-width: 1440px) {
 	#storyparagraphboundary p {
-		padding-left: 150px;
-		padding-right: 150px;
+		padding-left: 550px;
+		padding-right: 550px;
 	}
 
 	#toolsparagraphboundary p {
-		padding-left: 150px;
-		padding-right: 150px;
+		padding-left: 550px;
+		padding-right: 550px;
 	}
 
 	#contactparagraphboundary p {
-		padding-left: 150px;
-		padding-right: 150px;
+		padding-left: 550px;
+		padding-right: 550px;
 	}	
 }
