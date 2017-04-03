@@ -1,0 +1,7 @@
+video #odbg {
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	background: url(images/odbg.jpg) no-repeat;
+}
