@@ -425,3 +425,20 @@ section {
 		line-height: 1.8;
 	}
 }
+
+@media (min-width: 1440px) {
+	#storyparagraphboundary p {
+		padding-left: 150px;
+		padding-right: 150px;
+	}
+
+	#toolsparagraphboundary p {
+		padding-left: 150px;
+		padding-right: 150px;
+	}
+
+	#contactparagraphboundary p {
+		padding-left: 150px;
+		padding-right: 150px;
+	}	
+}
