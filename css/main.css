@@ -426,7 +426,7 @@ section {
 	}
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 2000px) {
 	#storyparagraphboundary p {
 		padding-left: 550px;
 		padding-right: 550px;
