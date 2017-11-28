@@ -227,6 +227,7 @@ section {
     text-decoration: none;
     border-style: solid;
     background: #9a2617;
+    margin: 5px;
     border-width: 10px 20px;
     border-color: #9a2617;
     border-radius: 5px;
@@ -406,7 +407,7 @@ section {
 
 	.links-right {
 		float: none;
-		margin: 0 auto 20px;
+		margin: auto;
 		text-align: center;
 		vertical-align: center;
 	}
