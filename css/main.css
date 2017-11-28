@@ -215,7 +215,6 @@ section {
 	text-align: left;
 	font: normal 16px sans-serif;
 	padding: 10px;
-	padding-right: 20px;
 }
 
 .resume-casestudy button {
@@ -236,12 +235,11 @@ section {
 .links-right {
 	float: right;
 	text-align: center;
-	margin: 0px 30px;
+	margin: 0px 35px;
 }
 
 .links-right a.casestudy {
 	margin-top: 12px;
-	margin-right:7px;
 	max-width: 200px;
 }
 
@@ -306,7 +304,6 @@ section {
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
-	margin-left: 3px;
 }
 
 @media (max-width: 784px) {
@@ -418,11 +415,15 @@ section {
 
 	.footer-distributed .footer-right{
 		float: none;
-		margin: 0 auto 20px;
+		margin: auto;
 	}
 
 	.footer-distributed .footer-left p.footer-links{
 		line-height: 1.8;
+	}
+
+	.footer-distributed .footer-left p.footer-links a{
+		padding: 5px;
 	}
 }
 
